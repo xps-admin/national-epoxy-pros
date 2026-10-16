@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import { Home, Image, Mail } from 'lucide-react'
 import Home from './pages/Home.jsx'
 import Gallery from './pages/Gallery.jsx'
-import GetAQuote from './pages/GetAQuote.jsx'
+import RequestQuote from './pages/RequestQuote.jsx'
 
 export default function App() {
   return (
@@ -17,7 +17,7 @@ export default function App() {
           <Link to="/gallery" className="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-gray-100 text-sm font-medium"><Image className="w-4 h-4" />
             Gallery
           </Link>
-          <Link to="/get-a-quote" className="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-gray-100 text-sm font-medium"><Mail className="w-4 h-4" />
+          <Link to="/request-quote" className="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-gray-100 text-sm font-medium"><Mail className="w-4 h-4" />
             Get a Quote
           </Link>
         </nav>
@@ -25,7 +25,7 @@ export default function App() {
           <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/gallery" element={<Gallery />} />
-        <Route path="/get-a-quote" element={<GetAQuote />} />
+        <Route path="/request-quote" element={<RequestQuote />} />
           </Routes>
         </main>
       </div>

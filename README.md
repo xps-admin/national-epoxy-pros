@@ -1,6 +1,6 @@
 # NATIONAL EPOXY PROS
 
-A high-end professional contractor website for residential and commercial epoxy flooring services.
+A high-performance professional epoxy flooring service website featuring project galleries and estimate requests.
 
 ## Getting Started
 
